@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Tablet */
+
+
+@media only screen and (min-width: 800px){
+
+    #slideButton{
+        display: none;
+    }
+
+    #logo{
+        width: 20%;
+        text-align: left;
+    }
+
+    #logo h1{
+        font-size: 6em;
+    }
+
+    #bignav{
+        background-color: #fff;
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        border-radius: 20px 0 0;
+        text-transform: uppercase;
+    }
+
+    #bignav ul{
+        margin-top: 10px;
+        float: right;
+        list-style: none;
+    }
+
+    #bignav ul li{
+        float: left;
+        padding: 0 30px 0 5px;
+    }
+
+    #bignav ul li:first-child{
+        border: none;
+    }
+
+    #sliderWrapper{
+        display: block;
+    }
+
+    #sidemenu{
+      float: left;
+      width: 30%;
+    }
+
+    #content{
+      float: right;
+      width: 60%;
+      margin-right: 5%;
+    }
+
+    #banner{
+        display: none;
+    }
+
+    #featured{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #daily{
+        width: 80%;
+        text-align: left;
+    }
+
+    #daily img{
+        float: left;
+        margin-right: 5%;
+    }
+
+    #daily h2{
+        margin-top: 10%;
+    }
+
+    footer #sitemap{
+        width: 100%;
+    }
+
+    footer #sitemap li{
+        float: left;
+        width: 20%;
+        background-color: #fff;
+        border-right: 1px solid black;
+        border-bottom: none;
+    }
+
+
+
+
+}

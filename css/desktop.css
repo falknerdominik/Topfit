@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Desktop */
+
+@media only screen and (min-width: 1400px) {
+    .grid{
+        width: 25%;
+    }
+
+    #daily{
+        width: 50%;
+    }
+
+    #sliderwrapper{
+        display: block;
+    }
+
+}
+
+
+
+
+
